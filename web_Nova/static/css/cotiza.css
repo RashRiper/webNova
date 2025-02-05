@@ -1,0 +1,131 @@
+.cotiza-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.cotiza-container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+.cotiza-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.cotiza-container label {
+    font-size: 1rem;
+    color: #555;
+    text-align: left;
+    width: 100%;
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+
+.cotiza-container input[type="number"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.cotiza-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cotiza-container button:hover {
+    background-color: #0056b3;
+}
+
+.cotiza-container a {
+    margin-top: 15px;
+    display: inline-block;
+    font-size: 1rem;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.cotiza-container a:hover {
+    color: #0056b3;
+}
+
+.cotirel-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .cotirel-container h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .cotirel-container p {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .cotirel-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .cotirel-container table th,
+  .cotirel-container table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+    font-size: 14px;
+  }
+  
+  .cotirel-container table th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  .cotirel-container table td {
+    color: #555;
+  }
+  
+  .cotirel-container a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .cotirel-container a:hover {
+    background-color: #0056b3;
+  }

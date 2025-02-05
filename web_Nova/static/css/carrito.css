@@ -1,0 +1,212 @@
+
+body {
+    background-image: linear-gradient(70deg, #000000, #00000020), url('/static/img/background.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.carrito-container {
+    max-width: 800px;
+    margin: 20px auto; 
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    min-height: 1000px; 
+    height: auto; 
+    flex-grow: 1; 
+}
+        
+        .carrito-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+        
+        .carrito-lista {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        
+        .carrito-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        
+        .carrito-item img {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        
+        .detalle-producto {
+            flex: 1;
+            margin-left: 15px;
+        }
+        
+        .detalle-producto h3 {
+            margin: 0 0 5px;
+            font-size: 16px;
+            color: #2c3e50;
+        }
+        
+        .detalle-producto p {
+            margin: 0;
+            font-size: 14px;
+            color: #7f8c8d;
+        }
+        
+        .cantidad-control {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            margin-top: 10px;
+        }
+        
+        .cantidad-control button {
+            width: 30px;
+            height: 30px;
+            border: none;
+            background-color: #1abc9c;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        .cantidad-control button:hover {
+            background-color: #16a085;
+        }
+        
+        .cantidad-control input {
+            width: 50px;
+            text-align: center;
+            padding: 5px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        
+        .btn-eliminar {
+            background-color: #e74c3c;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        
+        .btn-eliminar:hover {
+            background-color: #c0392b;
+        }
+        
+        .carrito-total {
+            margin-top: 20px;
+            text-align: center;
+        }
+        
+        .carrito-total h3 {
+            font-size: 18px;
+            color: #2c3e50;
+        }
+        
+        .carrito-acciones {
+            margin-top: 15px;
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+        }
+        
+        .carrito-acciones button {
+            flex: 1;
+            padding: 10px;
+            font-size: 16px;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        .btn-limpiar {
+            background-color: #e67e22;
+        }
+        
+        .btn-limpiar:hover {
+            background-color: #d35400;
+        }
+        
+        .btn-pagar {
+            background-color: #27ae60;
+        }
+        
+        .btn-pagar:hover {
+            background-color: #229954;
+        }
+
+.formulario-pago-container {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.formulario-pago-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #2c3e50;
+}
+
+.formulario-pago-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.formulario-pago-container label {
+  font-size: 16px;
+  color: #2c3e50;
+}
+
+.formulario-pago-container input,
+.formulario-pago-container select {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.formulario-pago-container input:focus,
+.formulario-pago-container select:focus {
+  outline: none;
+  border-color: #27ae60;
+}
+
+.formulario-pago-container button {
+  padding: 15px;
+  font-size: 18px;
+  color: white;
+  background-color: #27ae60;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.formulario-pago-container button:hover {
+  background-color: #229954;
+}
+
